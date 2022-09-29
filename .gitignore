@@ -6,7 +6,7 @@
 .mymetadata
 
 # Intellij
-#.idea/
+.idea/
 *.iml
 *.iws
 
