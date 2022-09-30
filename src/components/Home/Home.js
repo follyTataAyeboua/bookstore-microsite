@@ -123,7 +123,7 @@ const Home = () => {
                     props => (
                         <div>
                             <h3>List of books</h3>
-                            <SearchBar {...props.searchProps}  style={{width: '75rem', margin:'auto'}} srText={"Search book by title"}/>
+                            <SearchBar {...props.searchProps}  style={{width: '75rem', margin:'auto'}} srText={""} placeholder={"Search by title"}/>
                             <hr/>
                             <BootstrapTable
                                 {...props.baseProps}
