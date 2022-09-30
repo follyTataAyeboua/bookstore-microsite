@@ -1,6 +1,6 @@
 {
-  "homepage": "http://follyTataAyeboua.github.io/bookstore",
   "name": "bookstore-microsite",
+  "homepage": "https://follyTataAyeboua.github.io/bookstore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
