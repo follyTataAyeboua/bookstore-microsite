@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import {Button, Card, Modal} from "react-bootstrap";
-import {AiFillDelete, BsFillPenFill, FcViewDetails} from "react-icons/all";
+import {AiFillDelete} from "react-icons/ai";
+import { BsFillPenFill} from "react-icons/bs";
+import {FcViewDetails} from "react-icons/fc";
 import BookService from "../../services/book.service";
 import {useNavigate} from "react-router-dom";
 import {useBetween} from "use-between";

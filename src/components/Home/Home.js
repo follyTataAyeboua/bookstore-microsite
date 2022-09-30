@@ -5,8 +5,7 @@ import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory from "react-bootstrap-table2-paginator";
 import filterFactory from 'react-bootstrap-table2-filter';
-
-import {MdExpandMore, MdOutlineExpandLess} from "react-icons/all";
+import {MdExpandMore, MdOutlineExpandLess} from "react-icons/md";
 import AuthService from "../../services/auth.service";
 import BookDetail from "../Book/BookDetail";
 import {useBetween} from "use-between";
