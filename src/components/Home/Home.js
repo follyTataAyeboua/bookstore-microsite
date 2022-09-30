@@ -117,7 +117,6 @@ const Home = () => {
                 keyField="id"
                 data={books}
                 columns={columns}
-                noDataIndication="No Book found"
                 filter={filterFactory()}
                 search>
                 {
@@ -128,6 +127,7 @@ const Home = () => {
                             <hr/>
                             <BootstrapTable
                                 {...props.baseProps}
+                                noDataIndication="No Book found"
                                 expandRow={expandRow}
                                 pagination={paginationFactory({sizePerPage: 5})}/>
                         </div>
