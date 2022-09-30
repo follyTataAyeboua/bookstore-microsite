@@ -2,7 +2,7 @@ import axios from "axios";
 import TokenService from "./token.service";
 
 const instance = axios.create({
-    baseURL: "http://localhost:8080",
+    baseURL: "https://bookstore-folly.herokuapp.com",
     headers: {
         "Content-Type": "application/json",
     },
